@@ -12,9 +12,8 @@
  Formatter class that converts input string to phone format.
 */
 @interface SHSPhoneNumberFormatter : NSFormatter
-{
-    NSMutableDictionary *config;
-}
+
+@property NSMutableDictionary *config;
 
 /**
  Converts input string to dictionary.
